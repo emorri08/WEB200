@@ -7,6 +7,8 @@ navigation.css
 navigation styles
 */
 
+
+/* global navigation styles */
 #navigation {
     background-color:dodgerblue;
     color:white;
@@ -88,5 +90,9 @@ navigation styles
     color:chartreuse;
     background-color:black;
 }
+/* end global navigation styles */
+
+/* smaller screen navigation styles */
+
 
 /* END NAVIGATION STYLES */
