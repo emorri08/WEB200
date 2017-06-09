@@ -1,0 +1,92 @@
+/* 
+Elly Boyd
+WEB200
+Final Project
+
+navigation.css
+navigation styles
+*/
+
+#navigation {
+    background-color:dodgerblue;
+    color:white;
+    width:100%;
+    margin:auto;
+}
+
+#menu {
+    position:relative;
+}
+
+#menu > li {
+    display:inline-block;
+    
+}
+
+#menu > li > a {
+    display:block;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#menu > li > a:hover {
+    color:chartreuse;
+    background-color:black;
+}
+
+#menu #subNavigation {
+    display:none;
+    position:absolute;
+    list-style-type:none;
+}
+
+#menu #subNavigation2 {
+    display:none;
+    position:absolute;
+    list-style-type:none;
+}
+
+#menu li:hover #subNavigation {
+    display:block;
+}
+
+#menu li:hover #subNavigation2 {
+    display:block;
+}
+
+#subNavigation li {
+    padding:10px 5px;
+    background-color:dodgerblue;
+}
+
+#subNavigation2 li {
+    padding:10px 5px;
+    background-color:dodgerblue;
+}
+
+#subNavigation li a {
+    width:100%;
+    color:white;
+    padding:10px 15px;
+}
+
+#subNavigation2 li a {
+    width:100%;
+    color:white;
+    padding:10px 15px;
+}
+
+#subNavigation li a:hover {
+    color:chartreuse;
+    background-color:black;
+}
+
+#subNavigation2 li a:hover {
+    color:chartreuse;
+    background-color:black;
+}
+
+/* END NAVIGATION STYLES */

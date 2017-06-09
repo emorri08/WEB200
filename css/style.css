@@ -17,10 +17,6 @@ body {
     margin:auto;
 }
 
-
-
-
-
 /*  GLOBAL HEADER STYLES  */
 #rmdInsightLogo {
     margin-left:20px;
@@ -30,6 +26,26 @@ body {
 
 #logIn {
     float:right;
+}
+
+#logIn button {
+    padding:10px 30px 10px 30px;
+    margin-top:25px;
+    margin-right:50px;
+    margin-bottom:18px;
+    font-size:18px;
+    font-weight:bold;
+    text-shadow:-.5px .5px 0px #000;
+    background-color:dodgerblue;
+    color:white;
+}
+
+#logIn p.signUp {
+    font-weight:bold;
+    font-size:16px;
+    padding-left:30px;
+    color:dodgerblue;
+    text-shadow:-.5px -.5px 0px lawngreen;
 }
 
 #bannerHome {
@@ -166,6 +182,7 @@ body {
     clear:both;
     padding-top:100px;
     padding-bottom:50px;
+    background-color:dodger-blue;
     
 }
 
@@ -190,74 +207,7 @@ footer a {
 /*  END GLOBAL FOOTER STYLES  */
 
 
-
-
-
-/* NAVIGATION STYLES */
-#navigation {
-    background-color:dodgerblue;
-    color:white;
-    width:100%;
-    margin:auto;
-}
-
-#menu {
-    position:relative;
-}
-
-#menu > li {
-    display:inline-block;
-    
-}
-
-#menu > li > a {
-    display:block;
-    color:white;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-left:15px;
-    padding-right:15px;
-}
-
-#menu > li > a:hover {
-    color:chartreuse;
-    background-color:black;
-}
-
-#menu #subNavigation {
-    display:none;
-    position:absolute;
-    
-    list-style-type:none;
-}
-
-#menu li:hover #subNavigation {
-    display:block;
-}
-
-#subNavigation li {
-    padding:10px 5px;
-    background-color:dodgerblue;
-}
-
-#subNavigation li a {
-    width:100%;
-    color:white;
-    padding:10px 15px;
-}
-
-#subNavigation li a:hover {
-    color:chartreuse;
-    background-color:black;
-}
-/* END NAVIGATION STYLES */
-
-
-
-
-
 /* RESPONSIVE STYLES */
-
 
 /* RESPONSIVE LARGE */
 @media all and (min-width:1000px) {
@@ -283,6 +233,7 @@ footer a {
         font-size:24px;
         font-weight:bold;
         padding-bottom:24px;
+        padding-left:15px;
     }
 
     p.excerpt {
@@ -297,33 +248,49 @@ footer a {
     #articleTxtOne {
         padding-top:35px;
         float:left;
-        width:70%;
+        width:65%;
     }
     
     #articleTxtTwo {
         padding-top:35px;
         float:left;
-        width:60%;
+        width:65%;
     }
     #articleTxtThree {
         padding-top:35px;
         float:left;
-        width:60%;
+        width:65%;
     }
     #articleTxtFour {
         padding-top:35px;
         float:left;
-        width:60%;
+        width:65%;
     }
     #articleTxtFive {
         padding-top:35px;
         float:left;
-        width:60%;
+        width:65%;
+    }
+    
+    #articleTxtSix {
+        padding-top:35px;
+        float:left;
+        width:65%;
+    }
+    
+    #articleTxtSeven {
+        padding-top:35px;
+        float:left;
+        width:65%;
     }
     
     #linksMobile {
         display:none;
 }
+    
+    #copyright {
+        background-color:dodgerblue;
+    }
     
 }
 /* END RESPONSIVE LARGE */
@@ -372,6 +339,7 @@ footer a {
         font-size:20px;
         font-weight:bold;
         padding-bottom:20px;
+        padding-left:15px;
     }
     
     p.excerpt {
@@ -410,9 +378,26 @@ footer a {
         width:60%;
 }
     
+    #articleTxtSix {
+        padding-top:30px;
+        float:left;
+        width:60%;
+}
+    
+    #articleTxtSeven {
+        padding-top:30px;
+        float:left;
+        width:60%;
+}
+    
     #linksMobile {
         display:none;
 }
+    
+    #copyright {
+        padding-bottom:50px;
+        background-color:dodgerblue;
+    }
     
     
 }
@@ -475,7 +460,7 @@ footer a {
         font-weight:normal;
         line-height:21px;
         padding-left:14px;
-        padding-right:14px;
+        padding-right:25px;
         padding-bottom:14px;
     }
     
@@ -497,6 +482,16 @@ footer a {
         padding-left:16px;
 }
     #articleTxtFive {
+        clear:left;
+        padding-left:16px;
+}
+    
+    #articleTxtSix {
+        clear:left;
+        padding-left:16px;
+}
+    
+    #articleTxtSeven {
         clear:left;
         padding-left:16px;
 }
