@@ -17,7 +17,7 @@ main stylesheet
 
 
 html {
-    background-color:#fff;
+    background-color:ghostwhite;
     font-family:'arial', sans-serif;
 }
 
@@ -302,6 +302,105 @@ footer a {
         background-color:dodgerblue;
     }
     
+    #fullArticleOne {
+        width:960px;
+        margin:auto;
+    }
+    
+    h2.headline {
+        padding-top:50px;
+        padding-bottom:20px;
+        font-family:'Arial', sans-serif;
+        font-size:36px;
+        padding-bottom:10px;
+        color:dodgerblue;
+    }
+    
+    h3.subHeading {
+        font-family:'Arial', sans-serif;
+        font-size:24px;
+        color:#111;
+        padding-bottom:24px;
+    }
+    
+    div.list {
+        width:80%;
+        margin:auto;
+    }
+    
+    p.articleContent {
+        font-family:'arial', sans-serif;
+        font-size:16px;
+        color:#000;
+        line-height:24px;
+        padding-right:20px;
+        padding-bottom:16px;
+        padding-left:20px;
+        text-align:justify;
+    }
+    
+    #byLine {
+        padding-left:50px;
+    }
+    
+    #first {
+        padding-top:16px;
+    }
+    
+    #last {
+        margin-bottom:20px;
+    }
+    
+    #listOne ol {
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    
+    #listOne ol li {
+        font-family:sans-serif;
+        font-size:16px;
+        padding-bottom:8px;
+    }
+    
+    #listTwo ul {
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    
+    #listTwo ul li {
+        font-family:sans-serif;
+        font-size:16px;
+        padding-bottom:8px;
+    }
+    
+    #quoteOne {
+        width:600px;
+        margin:auto;
+        border-top:7px solid #666;
+        border-bottom:7px solid #666;
+        margin-bottom:20px;
+        margin-top:4px;
+    }
+    
+    #quoteOne blockquote {
+        width:300px;
+        margin:auto;
+        font-family:cursive;
+        font-size:20px;
+        font-weight:bold;
+        color:lawngreen;
+        text-shadow:-1px 1px 2px #000,
+                    -1px -1px 2px #000,
+                    1px 1px 2px #000,
+                    1px -1px 2px #000;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    
+    p.articleContent a {
+        color:limegreen;
+    }
+    
 }
 /* END RESPONSIVE LARGE */
 
@@ -408,7 +507,104 @@ footer a {
         padding-bottom:50px;
         background-color:dodgerblue;
     }
+
+    #fullArticleOne {
+        width:600px;
+        margin:auto;
+    }
     
+    h2.headline {
+        padding-top:50px;
+        padding-bottom:20px;
+        font-family:'Arial', sans-serif;
+        font-size:36px;
+        padding-bottom:10px;
+        color:dodgerblue;
+    }
+    
+    h3.subHeading {
+        font-family:'Arial', sans-serif;
+        font-size:24px;
+        color:#111;
+        padding-bottom:24px;
+    }
+    
+    div.list {
+        width:80%;
+        margin:auto;
+    }
+    
+    p.articleContent {
+        font-family:'arial', sans-serif;
+        font-size:16px;
+        color:#000;
+        line-height:24px;
+        padding-right:20px;
+        padding-bottom:16px;
+        text-align:justify;
+    }
+    
+    #byLine {
+        padding-left:30px;
+    }
+    
+    #first {
+        padding-top:16px;
+    }
+    
+    #last {
+        margin-bottom:20px;
+    }
+    
+    #listOne ol {
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    
+    #listOne ol li {
+        font-family:sans-serif;
+        font-size:16px;
+        padding-bottom:8px;
+    }
+    
+    #listTwo ul {
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    
+    #listTwo ul li {
+        font-family:sans-serif;
+        font-size:16px;
+        padding-bottom:8px;
+    }
+    
+    #quoteOne {
+        width:600px;
+        margin:auto;
+        border-top:7px solid #666;
+        border-bottom:7px solid #666;
+        margin-bottom:20px;
+        margin-top:4px;
+    }
+    
+    #quoteOne blockquote {
+        width:300px;
+        margin:auto;
+        font-family:cursive;
+        font-size:20px;
+        font-weight:bold;
+        color:lawngreen;
+        text-shadow:-1px 1px 2px #000,
+                    -1px -1px 2px #000,
+                    1px 1px 2px #000,
+                    1px -1px 2px #000;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    
+    p.articleContent a {
+        color:limegreen;
+    }
     
 }
 /* END RESPONSIVE MEDIUM */
@@ -524,6 +720,105 @@ footer a {
     
     #copyright {
         background-color:dodgerblue;
+    }
+    
+    #fullArticleOne {
+        width:960px;
+        margin:auto;
+    }
+    
+    h2.headline {
+        padding-top:50px;
+        padding-bottom:20px;
+        font-family:'Arial', sans-serif;
+        font-size:36px;
+        padding-bottom:10px;
+        color:dodgerblue;
+    }
+    
+    h3.subHeading {
+        font-family:'Arial', sans-serif;
+        font-size:24px;
+        color:#111;
+        padding-bottom:24px;
+    }
+    
+    div.list {
+        width:80%;
+        margin:auto;
+    }
+    
+    p.articleContent {
+        font-family:'arial', sans-serif;
+        font-size:16px;
+        color:#000;
+        line-height:24px;
+        padding-right:20px;
+        padding-bottom:16px;
+        padding-left:20px;
+        text-align:justify;
+    }
+    
+    #byLine {
+        padding-left:50px;
+    }
+    
+    #first {
+        padding-top:16px;
+    }
+    
+    #last {
+        margin-bottom:20px;
+    }
+    
+    #listOne ol {
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    
+    #listOne ol li {
+        font-family:sans-serif;
+        font-size:16px;
+        padding-bottom:8px;
+    }
+    
+    #listTwo ul {
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    
+    #listTwo ul li {
+        font-family:sans-serif;
+        font-size:16px;
+        padding-bottom:8px;
+    }
+    
+    #quoteOne {
+        width:600px;
+        margin:auto;
+        border-top:7px solid #666;
+        border-bottom:7px solid #666;
+        margin-bottom:20px;
+        margin-top:4px;
+    }
+    
+    #quoteOne blockquote {
+        width:300px;
+        margin:auto;
+        font-family:cursive;
+        font-size:20px;
+        font-weight:bold;
+        color:lawngreen;
+        text-shadow:-1px 1px 2px #000,
+                    -1px -1px 2px #000,
+                    1px 1px 2px #000,
+                    1px -1px 2px #000;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    
+    p.articleContent a {
+        color:limegreen;
     }
     
 }
