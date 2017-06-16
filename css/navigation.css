@@ -33,7 +33,7 @@
 
 #navigation {
     font-family: Montserrat, sans-serif;
-    background: #3d85c6;
+    background: #39b3e6;
 }
 
 #navigation > ul > li {
@@ -157,7 +157,7 @@
     text-decoration: none;
     color: #eeeeee;
     font-weight: 400;
-    background: #3d85c6;
+    background: #39b3e6;
 }
 
 #navigation ul ul li:last-child > a,
@@ -352,7 +352,7 @@
 }
 
 #navigation.small-screen .submenu-button.submenu-opened {
-    background: #3578b4;
+    background: #39b3e6;
 }
 
 #navigation.small-screen ul ul .submenu-button {
