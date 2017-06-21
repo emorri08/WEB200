@@ -49,6 +49,10 @@
                             
                             <li><a href="press.php"><span>Press</span></a></li>
                             
+                            <li><a href="safety.php"><span>Safety</span></a></li>
+
+                            <li><a href="events.php"><span>Events</span></a></li>
+                            
                             <li><a href="privacy.php"><span>Privacy</span></a></li>
                             
                             <li><a href="faq.php"><span>FAQ</span></a></li>
