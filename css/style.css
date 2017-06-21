@@ -24,7 +24,7 @@ html {
 
 body {
     width:100%;
-    background-color:#fff;
+    background-color:#f4f5f0;
     margin:auto;
 }
 
@@ -48,7 +48,7 @@ body {
     font-weight:bold;
     text-shadow:-.5px .5px 0px #000;
     background-color:#39b3e6;
-    color:#fff;
+    color:#f4f5f0;
 }
 
 #logIn p.signUp {
@@ -315,13 +315,15 @@ footer a {
     }
     
     #fullArticleOne {
-        width:960px;
+        width:80%;
         margin:auto;
     }
     
     h2.headline {
         padding-top:50px;
-        padding-bottom:20px;
+        padding-bottom:10px;
+        margin-bottom:20px;
+        padding-left:15px;
         font-family:'Arial', sans-serif;
         font-size:36px;
         padding-bottom:10px;
@@ -333,6 +335,7 @@ footer a {
         font-size:24px;
         color:#39b3e6;
         padding-bottom:24px;
+        padding-top:15px;
     }
     
     div.list {
@@ -351,12 +354,12 @@ footer a {
         text-align:justify;
     }
     
-    #byLine {
+    .byLine {
         padding-left:50px;
+        padding-bottom:10px;
     }
     
     #first {
-        padding-top:16px;
     }
     
     #last {
@@ -386,10 +389,10 @@ footer a {
     }
     
     #quoteOne {
-        width:600px;
+        width:500px;
         margin:auto;
-        border-top:7px solid #666;
-        border-bottom:7px solid #666;
+        border-top:7px solid #7bdf43;
+        border-bottom:7px solid #7bdf43;
         margin-bottom:20px;
         margin-top:4px;
     }
@@ -397,14 +400,10 @@ footer a {
     #quoteOne blockquote {
         width:300px;
         margin:auto;
-        font-family:cursive;
+        font-family:'Courgette', cursive;
         font-size:20px;
         font-weight:bold;
-        color:#7bdf43;
-        text-shadow:-1px 1px 2px #000,
-                    -1px -1px 2px #000,
-                    1px 1px 2px #000,
-                    1px -1px 2px #000;
+        color:#000;
         padding-top:20px;
         padding-bottom:20px;
     }
@@ -434,14 +433,14 @@ footer a {
         margin-bottom:20px;
         font-family:'Prompt', serif;
         font-size:20px;
-        color:#fff;
+        color:#f4f5f0;
         text-shadow:.5px .5px 0px #000;
     }
     
     label {
         font-family:'Raleway', sans-serif;
         font-size:16px;
-        color:#fff;
+        color:#f4f5f0;
         text-shadow:.5px .5px 0px #000;
     }
     
@@ -460,7 +459,7 @@ footer a {
         margin-left:200px;
         padding:5px;
         border-radius:5px;
-        background-color:#fff;
+        background-color:#f4f5f0;
         border:2px outset #666;
     }
     
@@ -482,6 +481,23 @@ footer a {
     padding:75px;
     max-width:800px;
 }
+    
+    #clientOne,
+    #clientTwo,
+    #clientThree,
+    #clientFour,
+    #clientFive {
+        font-size:24px;
+        color:#39b3e6;
+        padding:10px 10px 15px 15px;
+    }
+    
+    #byLine {
+        font-size: 12px;
+        font-variant: small-caps;
+        padding: 10px;
+        padding-left: 15px;
+    }
     
 }
 /* END RESPONSIVE LARGE */
@@ -591,13 +607,15 @@ footer a {
     }
 
     #fullArticleOne {
-        width:600px;
+        width:90%;
         margin:auto;
     }
     
     h2.headline {
         padding-top:50px;
-        padding-bottom:20px;
+        padding-bottom:10px;
+        margin-bottom:20px;
+        padding-left:15px;
         font-family:'Arial', sans-serif;
         font-size:36px;
         padding-bottom:10px;
@@ -609,6 +627,7 @@ footer a {
         font-size:24px;
         color:#39b3e6;
         padding-bottom:24px;
+        padding-top:15px;
     }
     
     div.list {
@@ -626,12 +645,12 @@ footer a {
         text-align:justify;
     }
     
-    #byLine {
-        padding-left:30px;
+    .byLine {
+        padding-left:25px;
+        padding-bottom:10px;
     }
     
     #first {
-        padding-top:16px;
     }
     
     #last {
@@ -661,10 +680,10 @@ footer a {
     }
     
     #quoteOne {
-        width:600px;
+        width:500px;
         margin:auto;
-        border-top:7px solid #666;
-        border-bottom:7px solid #666;
+        border-top:7px solid #7bdf43;
+        border-bottom:7px solid #7bdf43;
         margin-bottom:20px;
         margin-top:4px;
     }
@@ -672,14 +691,10 @@ footer a {
     #quoteOne blockquote {
         width:300px;
         margin:auto;
-        font-family:cursive;
+        font-family:'Courgette', cursive;
         font-size:20px;
         font-weight:bold;
-        color:#7bdf43;
-        text-shadow:-1px 1px 2px #000,
-                    -1px -1px 2px #000,
-                    1px 1px 2px #000,
-                    1px -1px 2px #000;
+        color:#000;
         padding-top:20px;
         padding-bottom:20px;
     }
@@ -709,14 +724,14 @@ footer a {
         margin-bottom:20px;
         font-family:'Prompt', serif;
         font-size:20px;
-        color:#fff;
+        color:#f4f5f0;
         text-shadow:.5px .5px 0px #000;
     }
     
     label {
         font-family:'Raleway', sans-serif;
         font-size:16px;
-        color:#fff;
+        color:#f4f5f0;
         text-shadow:.5px .5px 0px #000;
     }
     
@@ -735,7 +750,7 @@ footer a {
         margin-left:200px;
         padding:5px;
         border-radius:5px;
-        background-color:#fff;
+        background-color:#f4f5f0;
         border:2px outset #666;
     }
     
@@ -758,6 +773,23 @@ footer a {
     padding:75px 50px 75px 50px;
     max-width:800px;
 }
+    
+    #clientOne,
+    #clientTwo,
+    #clientThree,
+    #clientFour,
+    #clientFive {
+        font-size:22px;
+        color:#39b3e6;
+        padding:10px 10px 15px 15px;
+    }
+    
+    #byLine {
+        font-size: 12px;
+        font-variant: small-caps;
+        padding: 10px;
+        padding-left: 15px;
+    }
     
 }
 /* END RESPONSIVE MEDIUM */
@@ -876,13 +908,15 @@ footer a {
     }
     
     #fullArticleOne {
-        width:960px;
+        width:95%;
         margin:auto;
     }
     
     h2.headline {
         padding-top:50px;
-        padding-bottom:20px;
+        padding-bottom:10px;
+        margin-bottom:20px;
+        padding-left:15px;
         font-family:'Arial', sans-serif;
         font-size:36px;
         padding-bottom:10px;
@@ -894,6 +928,7 @@ footer a {
         font-size:24px;
         color:#39b3e6;
         padding-bottom:24px;
+        padding-top:15px;
     }
     
     div.list {
@@ -912,12 +947,17 @@ footer a {
         text-align:justify;
     }
     
-    #byLine {
-        padding-left:50px;
+    .byLine {
+        padding-left:20px;
+        padding-bottom:10px;
+    }
+    
+    .byLine a {
+        color:orangered;
+        text-decoration:none;
     }
     
     #first {
-        padding-top:16px;
     }
     
     #last {
@@ -947,10 +987,10 @@ footer a {
     }
     
     #quoteOne {
-        max-width:600px;
+        max-width:500px;
         margin:auto;
-        border-top:7px solid #666;
-        border-bottom:7px solid #666;
+        border-top:7px solid #7bdf43;
+        border-bottom:7px solid #7bdf43;
         margin-bottom:20px;
         margin-top:4px;
     }
@@ -958,14 +998,10 @@ footer a {
     #quoteOne blockquote {
         width:300px;
         margin:auto;
-        font-family:cursive;
+        font-family:'Courgette', cursive;
         font-size:20px;
         font-weight:bold;
-        color:#7bdf43;
-        text-shadow:-1px 1px 2px #000,
-                    -1px -1px 2px #000,
-                    1px 1px 2px #000,
-                    1px -1px 2px #000;
+        color:#000;
         padding-top:20px;
         padding-bottom:20px;
     }
@@ -995,14 +1031,14 @@ footer a {
         margin-bottom:15px;
         font-family:'Prompt', serif;
         font-size:16px;
-        color:#fff;
+        color:#f4f5f0;
         text-shadow:.5px .5px 0px #000;
     }
     
     label {
         font-family:'Raleway', sans-serif;
         font-size:12px;
-        color:#fff;
+        color:#f4f5f0;
         text-shadow:.5px .5px 0px #000;
     }
     
@@ -1021,7 +1057,7 @@ footer a {
         margin-left:50px;
         padding:5px;
         border-radius:5px;
-        background-color:#fff;
+        background-color:#f4f5f0;
         border:2px outset #666;
     }
     
@@ -1046,5 +1082,202 @@ footer a {
         
 }
     
+    #clientOne,
+    #clientTwo,
+    #clientThree,
+    #clientFour,
+    #clientFive {
+        font-size:20px;
+        color:#39b3e6;
+        padding:10px 10px 15px 15px;
+    }
+    
+    #byLine {
+        font-size: 12px;
+        font-variant: small-caps;
+        padding: 10px;
+        padding-left: 15px;
+    }
+    
 }
-/* END RESPONSIVE SMALL */
+/* -------------------------------------- END RESPONSIVE SMALL -------------------------------------------- */
+
+
+/* -------------------------------------- BEGIN NAVIGATION STYLES ------------------------------------------ */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+    #mainNav,
+    #mainNav ul,
+    #mainNav li,
+    #mainNav a {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        list-style: none;
+        font-weight: normal;
+        text-decoration: none;
+        line-height: 1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        position: relative;
+}
+
+    #mainNav a {
+        line-height: 1.5;
+}
+
+    #mainNav {
+        width: auto;
+        background-color: #39b3e6;
+}
+
+    #mainNav > ul {
+        background-color: #39b3e6;
+}
+
+    #mainNav > ul:after {
+        clear: both;
+        content: '';
+        display: table;
+}
+
+
+
+
+@media all and (max-width: 600px) {
+    
+    #mainNav > ul {
+        max-height: 32px;
+        overflow: hidden;
+        -webkit-transition: max-height 0.5s;
+        transition: max-height 0.5s;
+  }
+    
+    #mainNav.expand ul {
+        max-height: 900px;
+  }
+    
+}
+
+
+
+
+    #mainNav > ul > li {
+        float: left;
+}
+
+    #mainNav > ul > li.mobile {
+        display: none;
+}
+
+    #mainNav > ul > li.active {
+        background-color:white;
+        color:dodgerblue;
+}
+
+
+
+
+@media all and (max-width: 600px) {
+    
+    #mainNav > ul > li {
+        border-right: 0 none;
+        display: block;
+        float: none;
+  }
+    
+    #mainNav > ul > li.mobile {
+        display: block;
+  }
+    
+    #mainNav > ul > li.mobile i {
+        float: right;
+        font-style: normal;
+  }
+    
+}
+
+
+
+
+    #mainNav > ul > li:last-child ul {
+        left: auto;
+        right: 0;
+}
+
+    #mainNav > ul > li > a {
+        margin: 0 0 2px 0;
+        font-size: 14px;
+        display: block;
+        color: #fff;
+}
+
+    #mainNav > ul > li > a > span {
+        display: block;
+        padding: 6px 10px;
+        font-weight: bold;
+}
+
+    #mainNav > ul > li > a:hover {
+        text-decoration: none;
+        color:#000;              
+}
+
+    #mainNav > ul > li.active {
+        border-bottom: none;
+        color:#000;             
+}
+
+    #mainNav > ul > li.active > a {
+        color: #000;
+}
+
+
+
+/* --------------------------------------------- SUB MENU STYLES ------------------------------------------------ */
+
+    #mainNav ul ul {
+        background-color: #39b3e6;
+        padding: 5px 12px;
+        display: none;
+        position: absolute;
+        top: 33px;
+        left: 0;
+        width: 200px;
+        z-index: 10000;
+}
+
+
+
+
+@media all and (max-width: 600px) {
+    
+    #mainNav ul ul {
+        position: relative;
+        top: 0;
+        width: 100%;
+  }
+}
+
+
+
+
+    #mainNav ul ul li {
+        padding: 3px 0;
+}
+
+    #mainNav ul ul a {
+        color: #fff;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+}
+
+    #mainNav ul ul a:hover {
+        color:#000;           
+}
+
+
+/* --------------------------------------------- END NAVIGATION STYLES ----------------------------------------- */
