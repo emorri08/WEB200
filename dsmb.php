@@ -13,9 +13,8 @@
 <!-- start main content -->
             <div id="pageContent">
                 <article id="fullArticleOne">
-                    <h2 id="articleHeadline" class="headline">Article Main Headline</h2>
+                    <h2 id="articleHeadline" class="headline">Data Safety Monitoring Board</h2>
                     
-                    <p id="byLine">Author Name, mm/dd/yyyy, email@address.com</p>
                     
                         <p id="first" class="articleContent">Bring her forward! We want a shrubbery!! What do you mean? What do you mean? You don't frighten us, English pig-dogs! Go and boil your bottoms, sons of a silly person! I blow my nose at you, so-called Ah-thoor Keeng, you and all your silly English K-n-n-n-n-n-n-n-niggits! Why do you think that she is a witch? You don't frighten us, English pig-dogs! Go and boil your bottoms, sons of a silly person! I blow my nose at you, so-called Ah-thoor Keeng, you and all your silly English K-n-n-n-n-n-n-n-niggits! The Knights Who Say Ni demand a sacrifice! Did you dress her up like this? Why do you think that she is a witch? And the hat. She's a witch! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
                         </p>
